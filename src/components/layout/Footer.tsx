@@ -23,6 +23,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { label: "MBA Treks", path: "/mba-treks" },
+                { label: "For Business Schools", path: "/for-business-schools" },
                 { label: "K-16 Immersion", path: "/k16-immersion" },
                 { label: "Virtual Tours", path: "/virtual-tours" },
                 { label: "Asia in North America", path: "/asia-in-north-america" },
