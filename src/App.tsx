@@ -12,6 +12,7 @@ import VirtualTours from "./pages/VirtualTours";
 import AsiaInNorthAmerica from "./pages/AsiaInNorthAmerica";
 import PlanYourTrip from "./pages/PlanYourTrip";
 import FAQ from "./pages/FAQ";
+import ForBusinessSchools from "./pages/ForBusinessSchools";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/virtual-tours" element={<VirtualTours />} />
             <Route path="/asia-in-north-america" element={<AsiaInNorthAmerica />} />
             <Route path="/plan-your-trip" element={<PlanYourTrip />} />
+            <Route path="/for-business-schools" element={<ForBusinessSchools />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
